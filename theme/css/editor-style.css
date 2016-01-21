@@ -1,0 +1,11 @@
+/*
+Editor stylesheet
+=================
+*/
+
+@import url('../../foundation/css/foundation.min.css');
+@import url('theme.css');
+
+body#tinymce {
+  padding: 10px !important;
+}

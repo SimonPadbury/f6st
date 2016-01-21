@@ -1,0 +1,152 @@
+/*
+Theme Styles
+============
+Bare minimum to get you started.
+*/
+
+/* Header logo
+==============
+If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
+
+#site-title a {
+  display: inline-block;
+	padding-left 60px;
+  background: url('../../img/logo.png') 0 0 no-repeat;
+}*/
+
+/* Main content */
+
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+#content article {
+  margin: 40px 0;
+}
+#content header {
+  margin: 20px 0;
+}
+#content section {
+  margin-bottom: 20px;
+}
+#content footer {
+  padding-bottom: 20px;
+}
+
+/* Sidebar */
+
+.site-sidebar {
+  margin-top: 40px;
+}
+.site-sidebar > div {
+  /* Each sidebar widget */
+  margin-bottom: 20px;
+}
+.site-sidebar .widget_search {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Widget Custom Menus
+======================
+Copied and adapted from `.menu.vertical` and `.menu.nested` classes in Foundation 6.
+*/
+
+.site-sidebar .menu li,
+.site-footer .menu li {
+  display: block;
+}
+.site-sidebar .menu li a,
+.site-footer .menu li a {
+  display: block;
+  padding: 0.7rem 1rem;
+  line-height: 1;
+}
+
+/* Hide form placeholders on focus */
+
+input:focus::-webkit-input-placeholder { color: transparent; }
+input:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+textarea:focus::-webkit-input-placeholder { color: transparent; }
+textarea:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */ 
+
+/* Comments */
+
+#respond {
+  margin-top: 40px;
+}
+ol.commentlist {
+	counter-reset: li; /* Initiate a counter */
+	padding: 0;
+}
+ol.commentlist ul {
+  padding: 0;
+}
+ol.commentlist > li {
+	position: relative;
+	margin: 0 0 20px 0;
+	list-style: none; /* Disable the normal item numbering */
+}
+ol.commentlist > li:before {
+  content: "Thread " counter(li); /* Use the counter as content */
+  counter-increment: li; /* Increment the counter by 1 */
+  position:absolute;  
+  top: 0;
+  right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 5px 20px 5px 10px;
+  color: #999;
+}
+ol.commentlist li ol,
+ol.commentlist li ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.commentlist > li {
+  border: 1px solid #ddd;
+}
+.commentlist li {
+  padding: 20px;
+}
+
+.comment-body .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.commentlist .children {
+  margin-right: -20px;
+}
+.commentlist .children .comment {
+  padding-left: 40px;
+}
+
+.commentlist ul li {
+  margin-top: 20px;
+  margin-bottom: 0
+}
+.reply p {
+  margin: 0
+}
+
+/* Site footer */
+
+.site-footer {
+  padding: 40px 0
+}
+.site-sub-footer p {
+  text-align: center
+}
+
+.site-footer p {
+  text-align: center
+}
