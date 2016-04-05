@@ -1,6 +1,6 @@
 # F6ST – A Foundation 6 Starter Theme, for WordPress
 
-***Version 1.0***
+***Version 1.1***
 
 
 F6ST is a simple WordPress starter theme loaded with ZURB Foundation For Sites, v.6.
