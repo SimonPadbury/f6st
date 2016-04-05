@@ -1,19 +1,19 @@
-# f6st – A Foundation 6 Starter Theme, for WordPress
+# F6ST – A Foundation 6 Starter Theme, for WordPress
 
 ***Version 1.0***
 
 
-f6st is a simple WordPress starter theme loaded with ZURB Foundation For Sites, v.6.
+F6ST is a simple WordPress starter theme loaded with ZURB Foundation For Sites, v.6.
 
 [https://github.com/SimonPadbury/f6st](https://github.com/SimonPadbury/f6st)
 
 * * *
 
-### Features of f6st
+### Features of F6ST
 
 1. Simple, intuitive, clean code.
-2. Foundation and theme CSS, JS, functions and loops are organized into different folders.
-3. **Foundation 6.1.1** – included CSS and JS enqueued.
+2. Foundation 6 for Sites and theme CSS, JS, functions and loops are organized into different folders.
+3. **Foundation for Sites 6.2.0** – included CSS and JS enqueued.
 4. **jQuery** – enqueued, served from `foundation/js/vendor/jquery.min.js`.
 5. **Font Awesome 4.5.0** (served by cdnjs.com CDN) enqueued.
 6. **Modernizr 2.8.3** (served by cdnjs.com CDN) enqueued.
@@ -26,14 +26,14 @@ f6st is a simple WordPress starter theme loaded with ZURB Foundation For Sites, 
 11. **Visual editor stylesheet** – into which the same Foundation 6 and starter theme CSS are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typpography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
 12. [MIT licence](http://opensource.org/licenses/MIT) (open source).
 
-### Swapping for a Newer or Custimized Foundation
+### Swapping for a Newer or Custimized Foundation for Sites
 
 This is easy to do.
 
 1. Download Complete ("Download Everything") Foundation 6 For Sites. Alternatively, download a custom build from the Customizer. [http://foundation.zurb.com/sites/download.html/](http://foundation.zurb.com/sites/download.html/)
 2. After unzipping, grab the entire content of the downloaded folder and drop it into the `foundation/` folder in this theme, overwriting the earlier Foundation 6 stuff.
 
-This theme should still work OK.
+This theme should still work OK – unless Foundation for Sites has drastically changed.
 
 ### Using SCSS
 

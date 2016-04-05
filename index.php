@@ -5,6 +5,7 @@
   <div class="medium-8 columns" id="content" role="main">
     <?php get_template_part('/includes/loops/content', get_post_format()); ?>
   </div>
+
   
   <div class="medium-4 columns" id="sidebar" role="navigation">
     <?php get_sidebar(); ?>

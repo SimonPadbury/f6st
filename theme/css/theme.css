@@ -4,15 +4,20 @@ Theme Styles
 Bare minimum to get you started.
 */
 
-/* Header logo
-==============
-If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
+/* Top Bar */
 
-#site-title a {
+.top-bar-title strong {
   display: inline-block;
-	padding-left 60px;
-  background: url('../../img/logo.png') 0 0 no-repeat;
-}*/
+  padding: 0.5rem;
+}
+@media (min-width: 640px) {
+  .top-bar-right-inner {
+    float: left;
+  }
+  .top-bar-right-inner:last-of-type {
+    padding-left: 0.5rem;
+  }
+}
 
 /* Main content */
 
